@@ -671,7 +671,7 @@ p {
     @apply transition-all duration-700 ease-in-out hover:text-gray-400 hover:scale-120;
   }
   .islandmedia-logo {
-    @apply w-[12rem];
+    @apply w-[9.875rem];
   }
   /* footer */
 }
