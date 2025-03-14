@@ -633,7 +633,7 @@ p {
   }
   /* footer */
 }
-@media (max-width: 430px) and (min-width: 381px) {
+@media (max-width: 430px) and (min-width: 361px) {
   p {
     @apply text-[0.95rem];
   }
