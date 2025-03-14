@@ -591,7 +591,7 @@ p {
   }
   /* footer */
 }
-@media (max-width: 580px) and (min-width: 481px) {
+@media (max-width: 580px) and (min-width: 431px) {
   p {
     @apply text-[0.85rem];
   }
@@ -630,6 +630,48 @@ p {
   }
   .islandmedia-logo {
     @apply w-[6rem];
+  }
+  /* footer */
+}
+@media (max-width: 430px) and (min-width: 381px) {
+  p {
+    @apply text-[0.95rem];
+  }
+  .layout-contaner {
+    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[1.5rem] pt-[6.625rem] pb-[1.5rem] overflow-hidden;
+  }
+  .main-content-container {
+    @apply w-full h-full flex flex-col justify-start gap-[6rem] mb-[1rem];
+  }
+
+  .logo-image-para-box {
+    @apply flex items-center justify-center relative;
+  }
+  .image-para-box {
+    @apply relative flex flex-col;
+  }
+  .image-para-box p {
+    @apply w-[20rem] absolute -bottom-[2%] left-[55%] z-[50];
+  }
+  .image-para-box img {
+    @apply w-[15.0625rem] relative top-[1.5rem] left-[13%] z-[40];
+  }
+  .dadonitrumpet-pic {
+    @apply w-[11rem] relative right-[5%] z-[10];
+  }
+
+  /* footer */
+  .footer {
+    @apply flex items-center h-full flex-col-reverse justify-between gap-[2rem] pt-[2.5rem] pb-[4rem] border-t-[2px] border-gray-200;
+  }
+  .social-media-icons {
+    @apply flex items-center gap-[3.125rem] text-[3.25rem] pt-[0rem];
+  }
+  .social-media-icons a svg {
+    @apply transition-all duration-700 ease-in-out hover:text-gray-400 hover:scale-120;
+  }
+  .islandmedia-logo {
+    @apply w-[12rem];
   }
   /* footer */
 }
