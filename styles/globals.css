@@ -14,7 +14,7 @@ body {
   @apply w-full h-full;
 }
 p {
-  @apply text-[2rem];
+  @apply text-[1.95rem];
 }
 .layout-contaner {
   @apply bg-[var(--bg-black)] text-white w-full h-screen px-[16.625rem] pt-[16.625rem] pb-[2rem] overflow-hidden;
@@ -30,7 +30,7 @@ p {
   @apply relative flex flex-col;
 }
 .image-para-box p {
-  @apply w-full absolute bottom-[4%] left-[66%];
+  @apply w-full absolute bottom-[4%] left-[69%];
 }
 .image-para-box img {
   @apply w-full relative top-[3.375rem] left-[24%];
