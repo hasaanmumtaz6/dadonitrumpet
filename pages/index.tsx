@@ -11,10 +11,12 @@ import {
 } from "react-icons/ri";
 import { SiLinktree } from "react-icons/si";
 import Head from "next/head";
+import { Inter } from 'next/font/google'
+const inter = Inter({ subsets: ['latin'] })
 
 const Home = () => {
   return (
-    <main className="layout-contaner">
+    <main className={`${inter.className} layout-contaner`}>
       <Head>
         <title>Dadonitrumpet</title>
       </Head>

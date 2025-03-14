@@ -30,7 +30,7 @@ p {
   @apply relative flex flex-col;
 }
 .image-para-box p {
-  @apply w-full absolute bottom-[4%] left-[70%];
+  @apply w-full absolute bottom-[4%] left-[66%];
 }
 .image-para-box img {
   @apply w-full relative top-[3.375rem] left-[22%];
