@@ -39,7 +39,7 @@ const Home = () => {
 
         <div className="footer">
           <Link href={"https://www.islandmedia.co"} target="_blank">
-            <Image src={islandlogo} alt="islandmedia-logo" />
+            <Image src={islandlogo} alt="islandmedia-logo" className="islandmedia-logo" />
           </Link>
           <div className="social-media-icons">
             <Link href={"https://wa.me/38976482936"} target="_blank">
