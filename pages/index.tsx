@@ -11,14 +11,22 @@ import {
 } from "react-icons/ri";
 import { SiLinktree } from "react-icons/si";
 import Head from "next/head";
-import { Inter } from 'next/font/google'
-const inter = Inter({ subsets: ['latin'] })
+import { Inter } from "next/font/google";
+const inter = Inter({ subsets: ["latin"] });
 
 const Home = () => {
   return (
     <main className={`${inter.className} layout-contaner`}>
       <Head>
         <title>Dadonitrumpet</title>
+        <meta
+          name="keywords"
+          content="Dadonitrumpet, dadonitrumpet, musician, Musician, musician harbour toen, antiguan musician, Dadoni Trumpet, musician, live music, Caribbean tour, worldwide bookings, trumpet artist, Antigua music, English Harbour Town, jazz trumpet, Caribbean concerts, music performer, live shows, trumpet player"
+        />
+        <meta
+          name="description"
+          content="Dadoni Trumpet, a talented musician, brings electrifying performances and good vibes worldwide. Currently touring the Caribbean Islands from Feb 4th to Mar 31st. Bookings available globally: booking@dadonitrumpet.com."
+        />
       </Head>
       <div className="main-content-container">
         <div className="logo-image-para-box">
@@ -39,7 +47,11 @@ const Home = () => {
 
         <div className="footer">
           <Link href={"https://www.islandmedia.co"} target="_blank">
-            <Image src={islandlogo} alt="islandmedia-logo" className="islandmedia-logo" />
+            <Image
+              src={islandlogo}
+              alt="islandmedia-logo"
+              className="islandmedia-logo"
+            />
           </Link>
           <div className="social-media-icons">
             <Link href={"https://wa.me/38976482936"} target="_blank">
