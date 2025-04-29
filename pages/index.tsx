@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <main className="layout-contaner">
       <Head>
-        <title>Dadonitrumpet</title>
+        <title>Dadoni Trumpet</title>
         <meta
           name="keywords"
-          content="Dadonitrumpet, dadonitrumpet, musician, Musician, musician harbour toen, antiguan musician, Dadoni Trumpet, musician, live music, Caribbean tour, worldwide bookings, trumpet artist, Antigua music, English Harbour Town, jazz trumpet, Caribbean concerts, music performer, live shows, trumpet player"
+          content="Dadoni, Trumpet, musician, Musician, musician harbour toen, antiguan musician, Dadoni Trumpet, musician, live music, Caribbean tour, worldwide bookings, trumpet artist, Antigua music, English Harbour Town, jazz trumpet, Caribbean concerts, music performer, live shows, trumpet player"
         />
         <meta
           name="description"

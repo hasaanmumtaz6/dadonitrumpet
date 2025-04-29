@@ -24,8 +24,7 @@ const Intro = () => {
           Kalatua Beach Bar, Rainbow Café
           {")"} and Antigua {"("}Ministry of Sound, The Hut, Abracadabra,
           Antigua Yacht Show, Hodges Bay Resort, Maia South Point{")"} to the
-          luxury stages of St. Barth
-          {"("}Gyp Sea Beach{")"}, Mallorca {"("}Oceans Beach Club, Estela Super
+          luxury stages of St. Barth {"("}Gyp Sea Beach{")"}, Mallorca {"("}Oceans Beach Club, Estela Super
           Yacht Show{")"}, Monaco {"("}Monaco Yacht Show, La Rascasse{")"}, and
           beyond {"("}Malta, Serbia, Montenegro, Greece, Albania and Macedonia{")"}.
         </p>
