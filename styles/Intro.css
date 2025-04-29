@@ -1,5 +1,5 @@
 .intro-container {
-  @apply flex items-center justify-center w-full gap-[1.5rem];
+  @apply flex items-start justify-center w-full gap-[4.375rem];
 }
 
 .intro-para-box {
@@ -130,7 +130,7 @@
 
 @media (max-width: 1920px) and (min-width: 1821px) {
   .intro-container {
-    @apply flex items-center justify-center w-full gap-[1.5rem];
+    @apply flex items-start justify-center w-full gap-[4.375rem];
   }
 
   .intro-para-box {
