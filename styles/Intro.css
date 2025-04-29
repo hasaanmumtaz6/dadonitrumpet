@@ -398,7 +398,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[4rem] w-full;
+    @apply flex flex-col gap-[3.25rem] w-full;
   }
 
   .intro-para-box p {
@@ -420,7 +420,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[4rem] w-full;
+    @apply flex flex-col gap-[3rem] w-full;
   }
 
   .intro-para-box p {
@@ -442,7 +442,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[3.5rem] w-full;
+    @apply flex flex-col gap-[2.75rem] w-full;
   }
 
   .intro-para-box p {
@@ -464,7 +464,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[3rem] w-full;
+    @apply flex flex-col gap-[2.5rem] w-full;
   }
 
   .intro-para-box p {
@@ -486,7 +486,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[3rem] w-full;
+    @apply flex flex-col gap-[2rem] w-full;
   }
 
   .intro-para-box p {
