@@ -267,7 +267,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[2rem] w-full;
+    @apply flex flex-col gap-[4rem] w-full;
   }
 
   .intro-para-box p {
@@ -289,7 +289,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[2rem] w-full;
+    @apply flex flex-col gap-[4rem] w-full;
   }
 
   .intro-para-box p {
@@ -297,7 +297,7 @@
   }
 
   .intro-box-dadoni-pic {
-    @apply w-full h-full flex;
+    @apply w-full h-full flex mb-[2rem];
   }
 
   .intro-box-dadoni-pic img {
@@ -311,7 +311,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[2rem] w-full;
+    @apply flex flex-col gap-[3.5rem] w-full;
   }
 
   .intro-para-box p {
@@ -319,7 +319,7 @@
   }
 
   .intro-box-dadoni-pic {
-    @apply w-full h-full flex;
+    @apply w-full h-full flex mb-[2rem];
   }
 
   .intro-box-dadoni-pic img {
@@ -333,7 +333,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[2rem] w-full;
+    @apply flex flex-col gap-[3rem] w-full;
   }
 
   .intro-para-box p {
@@ -341,7 +341,7 @@
   }
 
   .intro-box-dadoni-pic {
-    @apply w-full h-full flex;
+    @apply w-full h-full flex mb-[2rem];
   }
 
   .intro-box-dadoni-pic img {
@@ -355,7 +355,7 @@
   }
 
   .intro-para-box {
-    @apply flex flex-col gap-[2rem] w-full;
+    @apply flex flex-col gap-[3rem] w-full;
   }
 
   .intro-para-box p {
@@ -363,7 +363,7 @@
   }
 
   .intro-box-dadoni-pic {
-    @apply w-full h-full flex;
+    @apply w-full h-full flex mb-[2rem];
   }
 
   .intro-box-dadoni-pic img {
