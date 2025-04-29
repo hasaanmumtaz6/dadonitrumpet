@@ -1,0 +1,6 @@
+.Header-container {
+  @apply flex flex-col items-center w-full;
+}
+.Header-container p {
+  @apply flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200];
+}

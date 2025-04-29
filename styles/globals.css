@@ -17,7 +17,7 @@ p {
   @apply text-[1.95rem];
 }
 .layout-contaner {
-  @apply bg-[var(--bg-black)] text-white w-full h-screen px-[16.625rem] pt-[14.625rem] pb-[2rem] overflow-hidden;
+  @apply bg-[var(--bg-black)] text-white w-full h-full px-[16.625rem] pt-[8.25rem] pb-[2rem] flex flex-col gap-[10rem];
 }
 .main-content-container {
   @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[2rem];
@@ -53,7 +53,7 @@ p {
     @apply text-[1.95rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[16.625rem] pt-[14.625rem] pb-[2rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[16.625rem] pt-[14.625rem] pb-[2rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[2rem];
@@ -89,7 +89,7 @@ p {
     @apply text-[1.95rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[14.625rem] pt-[9.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[14.625rem] pt-[9.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -125,7 +125,7 @@ p {
     @apply text-[1.95rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[14.625rem] pt-[9.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[14.625rem] pt-[9.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -161,7 +161,7 @@ p {
     @apply text-[1.55rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[14.625rem] pt-[9.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[14.625rem] pt-[9.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -203,7 +203,7 @@ p {
     @apply text-[1.55rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[14.625rem] pt-[9.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[14.625rem] pt-[9.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -245,7 +245,7 @@ p {
     @apply text-[1.25rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[10.625rem] pt-[7.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[10.625rem] pt-[7.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -287,7 +287,7 @@ p {
     @apply text-[1.25rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[10.625rem] pt-[7.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[10.625rem] pt-[7.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -329,7 +329,7 @@ p {
     @apply text-[1.25rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[10.625rem] pt-[7.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[10.625rem] pt-[7.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -371,7 +371,7 @@ p {
     @apply text-[1.25rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[10.625rem] pt-[7.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[10.625rem] pt-[7.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -413,7 +413,7 @@ p {
     @apply text-[1rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[6.625rem] pt-[7.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[6.625rem] pt-[7.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -455,7 +455,7 @@ p {
     @apply text-[1rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[6.625rem] pt-[7.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[6.625rem] pt-[7.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -497,7 +497,7 @@ p {
     @apply text-[1rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[6.625rem] pt-[7.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[6.625rem] pt-[7.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -539,7 +539,7 @@ p {
     @apply text-[0.85rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[4.625rem] pt-[8.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[4.625rem] pt-[8.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -581,7 +581,7 @@ p {
     @apply text-[0.85rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[3.625rem] pt-[6.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[3.625rem] pt-[6.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-between gap-[2rem] mb-[1rem];
@@ -623,7 +623,7 @@ p {
     @apply text-[0.95rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[1.5rem] pt-[6.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[1.5rem] pt-[6.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-start gap-[6rem] mb-[1rem];
@@ -665,7 +665,7 @@ p {
     @apply text-[0.825rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[1.5rem] pt-[6.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[1.5rem] pt-[6.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-start gap-[6rem] mb-[1rem];
@@ -707,7 +707,7 @@ p {
     @apply text-[0.75rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[1.5rem] pt-[6.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[1.5rem] pt-[6.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-start gap-[6rem] mb-[1rem];
@@ -749,7 +749,7 @@ p {
     @apply text-[0.75rem];
   }
   .layout-contaner {
-    @apply bg-[var(--bg-black)] text-white w-full h-screen px-[1.5rem] pt-[6.625rem] pb-[1.5rem] overflow-hidden;
+    @apply bg-[var(--bg-black)] text-white w-full h-full px-[1.5rem] pt-[6.625rem] pb-[1.5rem];
   }
   .main-content-container {
     @apply w-full h-full flex flex-col justify-start gap-[6rem] mb-[1rem];
