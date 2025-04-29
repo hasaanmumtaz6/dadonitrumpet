@@ -3,71 +3,178 @@
 }
 
 .Header-container p {
-  @apply flex w-full items-center justify-end relative text-[1.25rem] right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+  @apply flex w-fit items-center justify-end relative text-[2.25rem] -right-[15.75%] mt-[0.5rem] font-[200] uppercase;
+}
+
+@media (max-width: 2420px) and (min-width: 2321px) {
+  .Header-container p {
+    @apply flex w-fit items-center justify-end relative text-[2.25rem] -right-[16.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 2320px) and (min-width: 2221px) {
+  .Header-container p {
+    @apply flex w-fit items-center justify-end relative text-[2.25rem] -right-[17.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 2220px) and (min-width: 2121px) {
+  .Header-container p {
+    @apply flex w-fit items-center justify-end relative text-[2.25rem] -right-[18.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 2120px) and (min-width: 2021px) {
+  .Header-container p {
+    @apply flex w-fit items-center justify-end relative text-[2.25rem] -right-[19.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 2020px) and (min-width: 1921px) {
+  .Header-container p {
+    @apply flex w-fit items-center justify-end relative text-[2.25rem] -right-[20.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 1920px) and (min-width: 1821px) {
+  .Header-container {
+    @apply flex flex-col items-center w-full;
+  }
+
+  .Header-container p {
+    @apply flex w-full items-center justify-end relative text-[1.25rem] right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 1820px) and (min-width: 1721px) {
+  .Header-container {
+    @apply flex flex-col items-center w-full;
+  }
+
+  .Header-container p {
+    @apply flex w-full items-center justify-end relative text-[1.25rem] right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 1720px) and (min-width: 1601px) {
+  .Header-container {
+    @apply flex flex-col items-center w-full;
+  }
+
+  .Header-container p {
+    @apply flex w-full items-center justify-end relative text-[1.25rem] right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 1600px) and (min-width: 1537px) {
+  .Header-container {
+    @apply flex flex-col items-center w-full;
+  }
+
+  .Header-container p {
+    @apply flex w-full items-center justify-end relative text-[1.25rem] right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 1536px) and (min-width: 1441px) {
+  .Header-container {
+    @apply flex flex-col items-center w-full;
+  }
+
+  .Header-container p {
+    @apply flex w-full items-center justify-end relative text-[1.125rem] right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1367px) {
+  .Header-container {
+    @apply flex flex-col items-center w-full;
+  }
+
+  .Header-container p {
+    @apply flex w-full items-center justify-end relative text-[1.125rem] right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+  }
 }
 
 @media (max-width: 1366px) and (min-width: 1281px) {
   .Header-container p {
-    @apply text-[1.125rem];
+    @apply text-[1.125rem] flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200] uppercase;
   }
 }
+
 @media (max-width: 1280px) and (min-width: 1181px) {
   .Header-container p {
-    @apply text-[1.125rem];
+    @apply text-[1.125rem] flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200] uppercase;
   }
 }
+
 @media (max-width: 1180px) and (min-width: 1081px) {
   .Header-container p {
-    @apply text-[1.125rem];
+    @apply text-[1.125rem] flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200] uppercase;
   }
 }
+
 @media (max-width: 1080px) and (min-width: 981px) {
   .Header-container p {
-    @apply text-[1.125rem];
+    @apply text-[1.125rem] flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200] uppercase;
   }
 }
+
 @media (max-width: 980px) and (min-width: 881px) {
   .Header-container p {
-    @apply text-[1.125rem];
+    @apply text-[1.125rem] flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+    ;
   }
 }
+
 @media (max-width: 880px) and (min-width: 781px) {
   .Header-container p {
-    @apply text-[1.125rem];
+    @apply text-[1.125rem] flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+    ;
   }
 }
+
 @media (max-width: 780px) and (min-width: 681px) {
   .Header-container p {
-    @apply text-[1.125rem];
+    @apply text-[1.125rem] flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+    ;
   }
 }
+
 @media (max-width: 680px) and (min-width: 581px) {
   .Header-container p {
-    @apply text-[1rem];
+    @apply text-[1rem] flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+    ;
   }
 }
+
 @media (max-width: 580px) and (min-width: 431px) {
   .Header-container p {
-    @apply text-[1rem];
+    @apply text-[1rem] flex w-full items-center justify-end relative right-[9.75%] mt-[0.5rem] font-[200] uppercase;
+    ;
   }
 }
+
 @media (max-width: 430px) and (min-width: 376px) {
   .Header-container p {
-    @apply text-[1rem] flex justify-center items-center right-[0%];
+    @apply w-full text-[1rem] flex justify-center items-center right-[0%];
   }
 }
+
 @media (max-width: 375px) and (min-width: 361px) {
   .Header-container p {
-    @apply text-[1rem] flex justify-center items-center right-[0%];
+    @apply w-full text-[1rem] flex justify-center items-center right-[0%];
   }
 }
+
 @media (max-width: 360px) and (min-width: 321px) {
   .Header-container p {
-    @apply text-[1rem] flex justify-center items-center right-[0%];
+    @apply w-full text-[1rem] flex justify-center items-center right-[0%];
   }
 }
+
 @media (max-width: 320px) and (min-width: 281px) {
   .Header-container p {
-    @apply text-[1rem] flex justify-center items-center right-[0%];
+    @apply w-full text-[1rem] flex justify-center items-center right-[0%];
   }
 }
