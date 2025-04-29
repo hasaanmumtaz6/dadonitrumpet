@@ -20,7 +20,7 @@
 
 @media (max-width: 2420px) and (min-width: 2321px) {
   .intro-container {
-    @apply flex items-center justify-center w-full gap-[1.5rem];
+    @apply flex items-start justify-center w-full gap-[4.375rem];
   }
 
   .intro-para-box {
@@ -42,7 +42,7 @@
 
 @media (max-width: 2320px) and (min-width: 2221px) {
   .intro-container {
-    @apply flex items-center justify-center w-full gap-[1.5rem];
+    @apply flex items-start justify-center w-full gap-[4.375rem];
   }
 
   .intro-para-box {
@@ -64,7 +64,7 @@
 
 @media (max-width: 2220px) and (min-width: 2121px) {
   .intro-container {
-    @apply flex items-center justify-center w-full gap-[1.5rem];
+    @apply flex items-start justify-center w-full gap-[4.375rem];
   }
 
   .intro-para-box {
@@ -86,7 +86,7 @@
 
 @media (max-width: 2120px) and (min-width: 2021px) {
   .intro-container {
-    @apply flex items-center justify-center w-full gap-[1.5rem];
+    @apply flex items-start justify-center w-full gap-[4.375rem];
   }
 
   .intro-para-box {
@@ -108,7 +108,7 @@
 
 @media (max-width: 2020px) and (min-width: 1921px) {
   .intro-container {
-    @apply flex items-center justify-center w-full gap-[1.5rem];
+    @apply flex items-start justify-center w-full gap-[4.375rem];
   }
 
   .intro-para-box {
