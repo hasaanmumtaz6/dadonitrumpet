@@ -318,7 +318,7 @@ body {
     @apply flex items-center h-full flex-col-reverse justify-between gap-[2.75rem] pt-[2rem] pb-[2.5rem] border-t-[2px] border-[#fff];
   }
   .social-media-icons {
-    @apply flex items-center gap-[2.5rem] text-[3rem] pt-[0rem];
+    @apply flex items-center gap-[3.5rem] text-[3rem] pt-[0rem];
   }
   .social-media-icons a svg {
     @apply transition-all duration-700 ease-in-out hover:text-gray-400 hover:scale-120;
