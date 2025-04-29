@@ -27,7 +27,7 @@ const Intro = () => {
           luxury stages of St. Barth
           {"("}Gyp Sea Beach{")"}, Mallorca {"("}Oceans Beach Club, Estela Super
           Yacht Show{")"}, Monaco {"("}Monaco Yacht Show, La Rascasse{")"}, and
-          beyond {"("}Malta, Serbia, Montenegro, Greece, Macedonia and Albania{")"}.
+          beyond {"("}Malta, Serbia, Montenegro, Greece, Albania and Macedonia{")"}.
         </p>
 
         <p className={`${Hexa.variable}`}>
