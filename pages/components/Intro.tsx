@@ -14,7 +14,7 @@ const Intro = () => {
       <span className="intro-para-box">
         <p className={`${Hexa.variable}`}>
           Dadoni, a dynamic professional trumpeter since 1995, delivering
-          electrifying performances that fuse House, Jazz, Afro, Latin, and Funk
+          electrifying performances that fuse House, Jazz, Afro, Latin, Soul and Funk
           into an unforgettable experience.
         </p>
 
@@ -27,7 +27,7 @@ const Intro = () => {
           luxury stages of St. Barth
           {"("}Gyp Sea Beach{")"}, Mallorca {"("}Oceans Beach Club, Estela Super
           Yacht Show{")"}, Monaco {"("}Monaco Yacht Show, La Rascasse{")"}, and
-          beyond {"("}Malta, Serbia, Montenegro, Greece, Macedonia{")"}.
+          beyond {"("}Malta, Serbia, Montenegro, Greece, Macedonia and Albania{")"}.
         </p>
 
         <p className={`${Hexa.variable}`}>
