@@ -391,7 +391,7 @@ body {
   }
 
   .social-media-icons {
-    @apply flex items-center gap-[2.75rem] text-[3.25rem] pt-[0rem];
+    @apply flex items-center justify-between w-full gap-[0rem] text-[2rem] pt-[0rem];
   }
 
   .social-media-icons a svg {
@@ -416,7 +416,7 @@ body {
   }
 
   .social-media-icons {
-    @apply flex items-center gap-[2.5rem] text-[3rem] pt-[0rem];
+    @apply flex items-center justify-between w-full gap-[0rem] text-[2rem] pt-[0rem];
   }
 
   .social-media-icons a svg {
@@ -441,7 +441,7 @@ body {
   }
 
   .social-media-icons {
-    @apply flex items-center gap-[2.5rem] text-[3rem] pt-[0rem];
+    @apply flex items-center justify-between w-full gap-[0rem] text-[2rem] pt-[0rem];
   }
 
   .social-media-icons a svg {
@@ -466,7 +466,7 @@ body {
   }
 
   .social-media-icons {
-    @apply flex items-center gap-[2.25rem] text-[2.5rem] pt-[0rem];
+    @apply flex items-center justify-between w-full gap-[0rem] text-[2rem] pt-[0rem];
   }
 
   .social-media-icons a svg {
