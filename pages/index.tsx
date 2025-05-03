@@ -8,6 +8,7 @@ const Home = () => {
     <main className="layout-contaner">
       <Head>
         <title>Dadoni Trumpet</title>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <meta
           name="keywords"
           content="Dadoni, Trumpet, musician, Musician, musician harbour toen, antiguan musician, Dadoni Trumpet, musician, live music, Caribbean tour, worldwide bookings, trumpet artist, Antigua music, English Harbour Town, jazz trumpet, Caribbean concerts, music performer, live shows, trumpet player"
