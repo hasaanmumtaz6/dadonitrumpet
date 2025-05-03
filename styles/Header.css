@@ -11,7 +11,7 @@
 }
 
 .Header-container p {
-  @apply flex w-fit items-center justify-end absolute -bottom-[4rem] text-[2.25rem] right-[8.25%] mt-[0.5rem] font-[200] uppercase;
+  @apply flex w-fit items-center justify-end absolute -bottom-[4rem] text-[2.25rem] right-[8.325%] mt-[0.5rem] font-[200] uppercase;
 }
 
 @media (max-width: 1920px) and (min-width: 1821px) {
