@@ -11,14 +11,12 @@ const Presskit = () => {
     if (hasRun.current) return;
     hasRun.current = true;
 
-    const audio = new Audio('/docs/achievement.mp3');
-    audio.play().catch((error) => {
-      console.warn('Audio play failed:', error);
-    });
+    const audio = new Audio("/audio/achievment.mp3");
+    audio.play();
 
-    const link = document.createElement('a');
-    link.href = '/docs/presskit.zip';
-    link.setAttribute('download', 'presskit.zip');
+    const link = document.createElement("a");
+    link.href = "/docs/presskit.zip";
+    link.setAttribute("download", "presskit.zip");
     document.body.appendChild(link);
     link.click();
     link.remove();
@@ -47,7 +45,7 @@ const Presskit = () => {
         <FaFileZipper />
         <b>Dowload Zip File</b>
       </Link>
-      {zipNoti && <p>{zipNoti}</p>}
+      {zipNoti && <p className="animate-pulse">{zipNoti}</p>}
     </div>
   );
 };
