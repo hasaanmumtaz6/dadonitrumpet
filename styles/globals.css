@@ -50,11 +50,9 @@ body {
   .social-media-icons a svg {
     @apply transition-all duration-700 ease-in-out hover:text-gray-400 hover:scale-120;
   }
-
 }
 
 @media (max-width: 1820px) and (min-width: 1721px) {
-
   /* footer */
   .footer {
     @apply flex items-start justify-between gap-[2rem] pt-[2.5rem] pb-[4rem] border-t-[1px] border-[#fff];
@@ -72,7 +70,6 @@ body {
 }
 
 @media (max-width: 1720px) and (min-width: 1601px) {
-
   /* footer */
   .footer {
     @apply flex items-start justify-between gap-[2rem] pt-[2.5rem] pb-[4rem] border-t-[1px] border-[#fff];
@@ -90,7 +87,6 @@ body {
 }
 
 @media (max-width: 1600px) and (min-width: 1537px) {
-
   /* footer */
   .footer {
     @apply flex items-start justify-between gap-[2rem] pt-[2.5rem] pb-[4rem] border-t-[1px] border-[#fff];
@@ -108,7 +104,6 @@ body {
 }
 
 @media (max-width: 1536px) and (min-width: 1441px) {
-
   /* footer */
   .footer {
     @apply flex items-start justify-between gap-[2rem] pt-[2.5rem] pb-[4rem] border-t-[1px] border-[#fff];
@@ -130,7 +125,6 @@ body {
 }
 
 @media (max-width: 1440px) and (min-width: 1367px) {
-
   .layout-contaner {
     @apply bg-[var(--bg-black)] text-white w-full h-full px-[12.625rem] pt-[8.25rem] pb-[2rem] flex flex-col gap-[10rem];
   }
@@ -478,4 +472,10 @@ body {
   }
 
   /* footer */
+}
+.presskit-zip-page-container {
+  @apply w-full h-screen flex flex-col gap-[2rem] items-center justify-center text-white bg-black text-center text-2xl font-bold;
+}
+.primary-btn {
+  @apply w-fit flex items-center gap-[0.5rem] border border-white rounded-md select-none px-[1rem] py-[0.325rem];
 }
