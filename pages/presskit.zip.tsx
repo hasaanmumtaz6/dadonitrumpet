@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { FaFileZipper } from "react-icons/fa6";
 
 const Presskit = () => {
+  const [zipNoti, setZipNoti] = useState("");
+
   useEffect(() => {
     const link = document.createElement("a");
     link.href = "/docs/presskit.zip";
@@ -11,7 +13,12 @@ const Presskit = () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  }, []);
+    setZipNoti("presskit.zip downloaded");
+    setTimeout(() => {
+      setZipNoti("");
+    }, 5000);
+  }, [zipNoti]);
+
   return (
     <div className="presskit-zip-page-container">
       <Head>
@@ -21,10 +28,17 @@ const Presskit = () => {
         href="/docs/presskit.zip"
         download="Presskit"
         className="primary-btn"
+        onClick={() => {
+          setZipNoti("presskit.zip downloaded");
+          setTimeout(() => {
+            setZipNoti("");
+          }, 5000);
+        }}
       >
         <FaFileZipper />
         <b>Dowload Zip File</b>
       </Link>
+      {zipNoti && <p>{zipNoti}</p>}
     </div>
   );
 };
