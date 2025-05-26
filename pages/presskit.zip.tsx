@@ -7,6 +7,10 @@ const Presskit = () => {
   const [zipNoti, setZipNoti] = useState("");
 
   useEffect(() => {
+    const audio = new Audio('/audio/achievement.mp3');
+    audio.play().catch((error) => {
+      console.warn('Audio play failed:', error);
+    });
     const link = document.createElement("a");
     link.href = "/docs/presskit.zip";
     link.setAttribute("download", "presskit.zip");
