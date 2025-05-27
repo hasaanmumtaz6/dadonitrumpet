@@ -5,6 +5,7 @@ import { FaFileZipper } from "react-icons/fa6";
 
 const Presskit = () => {
   const [zipNoti, setZipNoti] = useState("");
+  const [buttonText, setButtonText] = useState("Downloading Press Kit");
   const hasRun = useRef(false);
 
   useEffect(() => {
@@ -20,11 +21,14 @@ const Presskit = () => {
     document.body.appendChild(link);
     link.click();
     link.remove();
+
     setZipNoti("presskit.zip downloaded");
+    setButtonText("Downloaded ✅");
+
     setTimeout(() => {
       setZipNoti("");
     }, 5000);
-  }, [zipNoti]);
+  }, []);
 
   return (
     <div className="presskit-zip-page-container">
@@ -37,13 +41,14 @@ const Presskit = () => {
         className="primary-btn"
         onClick={() => {
           setZipNoti("presskit.zip downloaded");
+          setButtonText("Downloaded ✅");
           setTimeout(() => {
             setZipNoti("");
           }, 5000);
         }}
       >
         <FaFileZipper />
-        <b>Dowload Zip File</b>
+        <b>{buttonText}</b>
       </Link>
       {zipNoti && <p className="animate-pulse">{zipNoti}</p>}
     </div>
