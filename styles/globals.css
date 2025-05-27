@@ -474,7 +474,7 @@ body {
   /* footer */
 }
 .presskit-zip-page-container {
-  @apply w-full h-screen flex flex-col gap-[2rem] items-center justify-center text-white bg-white text-center text-2xl font-bold;
+  @apply w-full h-screen flex flex-col gap-[2rem] items-center justify-center text-white bg-black text-center text-2xl font-bold;
 }
 .primary-btn {
   @apply w-fit flex items-center gap-[0.5rem] border border-white rounded-md select-none px-[1rem] py-[0.325rem];
