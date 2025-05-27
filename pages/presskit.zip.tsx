@@ -41,10 +41,10 @@ const Presskit = () => {
 
     setTimeout(() => {
       setButtonText("Downloading Press Kit");
-    }, 20000);
+    }, 10000);
     setTimeout(() => {
       setZipNoti("");
-    }, 18000);
+    }, 8000);
   };
 
   return (
