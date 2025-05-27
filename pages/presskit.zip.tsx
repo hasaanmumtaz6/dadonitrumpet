@@ -25,10 +25,25 @@ const Presskit = () => {
     setZipNoti("presskit.zip downloaded");
     setButtonText("Downloaded ✅");
 
+    // Reset states after 5 seconds
+    const timer = setTimeout(() => {
+      setZipNoti("");
+      setButtonText("Downloading Press Kit");
+    }, 5000);
+
+    // Cleanup in case component unmounts early
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleClick = () => {
+    setZipNoti("presskit.zip downloaded");
+    setButtonText("Downloaded ✅");
+
     setTimeout(() => {
       setZipNoti("");
-    }, 5000);
-  }, []);
+      setButtonText("Downloading Press Kit");
+    }, 20000);
+  };
 
   return (
     <div className="presskit-zip-page-container">
@@ -39,13 +54,7 @@ const Presskit = () => {
         href="/docs/presskit.zip"
         download="Presskit"
         className="primary-btn"
-        onClick={() => {
-          setZipNoti("presskit.zip downloaded");
-          setButtonText("Downloaded ✅");
-          setTimeout(() => {
-            setZipNoti("");
-          }, 5000);
-        }}
+        onClick={handleClick}
       >
         <FaFileZipper />
         <b>{buttonText}</b>
