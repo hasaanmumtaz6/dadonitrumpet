@@ -25,13 +25,11 @@ const Presskit = () => {
     setZipNoti("presskit.zip downloaded");
     setButtonText("Downloaded ✅");
 
-    // Reset states after 5 seconds
     const timer = setTimeout(() => {
       setZipNoti("");
       setButtonText("Downloading Press Kit");
     }, 15000);
 
-    // Cleanup in case component unmounts early
     return () => clearTimeout(timer);
   }, []);
 
