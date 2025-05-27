@@ -44,7 +44,7 @@ const Presskit = () => {
     }, 20000);
     setTimeout(() => {
       setZipNoti("");
-    }, 15000);
+    }, 18000);
   };
 
   return (
