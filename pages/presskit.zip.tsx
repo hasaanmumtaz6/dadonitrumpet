@@ -29,7 +29,7 @@ const Presskit = () => {
     const timer = setTimeout(() => {
       setZipNoti("");
       setButtonText("Downloading Press Kit");
-    }, 5000);
+    }, 15000);
 
     // Cleanup in case component unmounts early
     return () => clearTimeout(timer);
@@ -40,9 +40,11 @@ const Presskit = () => {
     setButtonText("Downloaded ✅");
 
     setTimeout(() => {
-      setZipNoti("");
       setButtonText("Downloading Press Kit");
     }, 20000);
+    setTimeout(() => {
+      setZipNoti("");
+    }, 15000);
   };
 
   return (
@@ -59,7 +61,7 @@ const Presskit = () => {
         <FaFileZipper />
         <b>{buttonText}</b>
       </Link>
-      {zipNoti && <p className="animate-pulse">{zipNoti}</p>}
+      {zipNoti && <p className="animate-pulse select-none">{zipNoti}</p>}
     </div>
   );
 };
