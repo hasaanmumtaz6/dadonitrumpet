@@ -4,8 +4,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { FaFileZipper } from "react-icons/fa6";
 
 const Presskit = () => {
-  const [zipNoti, setZipNoti] = useState("");
-  const [buttonText, setButtonText] = useState("Downloading Press Kit");
+  // const [zipNoti, setZipNoti] = useState("");
+  // const [buttonText, setButtonText] = useState("Downloading Press Kit");
   const hasRun = useRef(false);
 
   useEffect(() => {
@@ -22,35 +22,35 @@ const Presskit = () => {
     link.click();
     link.remove();
 
-    setZipNoti("presskit.zip downloaded");
-    setButtonText("Downloaded ✅");
+    // setZipNoti("presskit.zip downloaded");
+    // setButtonText("Downloaded ✅");
 
-    const timer = setTimeout(() => {
-      setZipNoti("");
-      setButtonText("Downloading Press Kit");
-    }, 15000);
+    // const timer = setTimeout(() => {
+    //   setZipNoti("");
+    //   // setButtonText("Downloading Press Kit");
+    // }, 15000);
 
-    return () => clearTimeout(timer);
+    // return () => clearTimeout(timer);
   }, []);
 
-  const handleClick = () => {
-    setZipNoti("presskit.zip downloaded");
-    setButtonText("Downloaded ✅");
+  // const handleClick = () => {
+  //   setZipNoti("presskit.zip downloaded");
+  //   setButtonText("Downloaded ✅");
 
-    setTimeout(() => {
-      setButtonText("Downloading Press Kit");
-    }, 10000);
-    setTimeout(() => {
-      setZipNoti("");
-    }, 8000);
-  };
+  //   setTimeout(() => {
+  //     setButtonText("Downloading Press Kit");
+  //   }, 10000);
+  //   setTimeout(() => {
+  //     setZipNoti("");
+  //   }, 8000);
+  // };
 
   return (
     <div className="presskit-zip-page-container">
       <Head>
         <title>Presskit.zip</title>
       </Head>
-      <Link
+      {/* <Link
         href="/docs/presskit.zip"
         download="Presskit"
         className="primary-btn"
@@ -59,7 +59,7 @@ const Presskit = () => {
         <FaFileZipper />
         <b>{buttonText}</b>
       </Link>
-      {zipNoti && <p className="animate-pulse select-none">{zipNoti}</p>}
+      {zipNoti && <p className="animate-pulse select-none">{zipNoti}</p>} */}
     </div>
   );
 };
