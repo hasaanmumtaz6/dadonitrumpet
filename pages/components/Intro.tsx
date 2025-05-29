@@ -3,6 +3,7 @@ import React from "react";
 import dadoni from "@/public/images/dadoni.png";
 import localFont from "next/font/local";
 
+
 const Hexa = localFont({
   src: "../fonts/Hellix-Regular.ttf",
   variable: "--font-Hellix-Regular",

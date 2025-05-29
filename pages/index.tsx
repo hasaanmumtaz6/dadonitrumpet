@@ -17,6 +17,10 @@ const Home = () => {
           name="description"
           content="Dadoni Trumpet, a talented musician, brings electrifying performances and good vibes worldwide. Currently touring the Caribbean Islands from Feb 4th to Mar 31st. Bookings available globally: booking@dadonitrumpet.com."
         />
+        <meta
+          property="og:image"
+          content="https://www.dadonitrumpet.com/_next/static/media/logo.f22d30b4.svg"
+        />
       </Head>
 
       <Header />
