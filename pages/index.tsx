@@ -19,7 +19,7 @@ const Home = () => {
         />
         <meta
           property="og:image"
-          content="https://www.dadonitrumpet.com/_next/static/media/logo.f22d30b4.svg"
+          content="https://i.ibb.co/3nXT95t/dadoni.png"
         />
       </Head>
  
