@@ -22,7 +22,7 @@ const Home = () => {
           content="https://www.dadonitrumpet.com/_next/static/media/logo.f22d30b4.svg"
         />
       </Head>
-
+ 
       <Header />
       <Intro />
       <Footer />
