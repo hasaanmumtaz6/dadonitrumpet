@@ -19,7 +19,7 @@ const Home = () => {
         />
         <meta
           property="og:image"
-          content="https://i.ibb.co/3nXT95t/dadoni.png"
+          content="https://i.imghippo.com/files/HlQ3758lY.png"
         />
       </Head>
  
